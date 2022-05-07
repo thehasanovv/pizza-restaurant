@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Labne",
+    "img": "/img/drink/labne.jpg",
+    "price": 1.5,
+    "size": "0.2 L",
+    "product": "drink"
+  },
+  {
+    "title": "Sirab",
+    "img": "/img/drink/sirab.jpg",
+    "price": 1,
+    "size": "0.5 L",
+    "product": "drink"
+  },
+  {
+    "title": "Coca-cola",
+    "img": "/img/drink/coca-cola.jpg",
+    "price": 2.5,
+    "size": "0.33 L",
+    "product": "drink"
+  },
+  {
+    "title": "Fanta",
+    "img": "/img/drink/fanta.jpg",
+    "price": 2.5,
+    "size": "0.33 L",
+    "product": "drink"
+  },
+  {
+    "title": "Sprite",
+    "img": "/img/drink/sprite.jpg",
+    "price": 2.5,
+    "size": "0.33 L",
+    "product": "drink"
+  },
+  {
+    "title": "Fuse-tea",
+    "img": "/img/drink/fuse-tea.jpg",
+    "price": 2.5,
+    "size": "0.33 L",
+    "product": "drink"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Greek",
+    "img": "/img/salad/greek.jpg",
+    "desc": "Iceberg lettuce, tomatoes, cucumber, white cheese, olives, olive oil, lemon juice, spices",
+    "price": 6,
+    "product": "salad"
+  },
+  {
+    "title": "Speciale",
+    "img": "/img/salad/speciale.jpg",
+    "desc": "Iceberg lettuce, carrots, tomatoes, cucumber, corn, chicken fillet, gouda cheese, rusks, special sauce, spices",
+    "price": 7,
+    "product": "salad"
+  },
+  {
+    "title": "Capricciosa",
+    "img": "/img/salad/speciale.jpg",
+    "desc": "Iceberg lettuce, tomatoes, cucumber, corn, carrots, gouda cheese, tuna, ham, cocktail sauce",
+    "price": 8,
+    "product": "salad"
+  },
+  {
+    "title": "Caesar",
+    "img": "/img/salad/caesar.jpg",
+    "desc": "Iceberg lettuce, tomatoes, chicken breast, parmesan cheese, rusks, classic Caesar sauce",
+    "price": 8,
+    "product": "salad"
+  }
+]

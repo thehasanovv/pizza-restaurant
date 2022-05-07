@@ -1,0 +1,298 @@
+[
+  {
+    "title": "Margherita",
+    "img": "/img/pizza/margherita.jpg",
+    "desc": "Tomatoes, Oregano, Mozzarella Cheese",
+    "prices": [8, 12, 15],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Gouda cheese",
+        "price": 2
+      },
+      {
+        "text": "Salted cucumbers",
+        "price": 1
+      },
+      {
+        "text": "Black Olives",
+        "price": 1
+      }
+    ]
+  },
+  {
+    "title": "Vegetarian",
+    "img": "/img/pizza/vegeterian.jpg",
+    "desc": "Pizza sauce, gouda cheese, spinach, bell pepper, tomatoes, mushrooms",
+    "prices": [8, 12, 15],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Black Olives",
+        "price": 1
+      },
+      {
+        "text": "Red onion",
+        "price": 1
+      }
+    ]
+  },
+  {
+    "title": "Funghi Con Pollo",
+    "img": "/img/pizza/fungi-con.jpg",
+    "desc": "Pizza sauce, gouda cheese, mushrooms, chicken fillet",
+    "prices": [10, 14, 18],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Mozzarella",
+        "price": 2
+      },
+      {
+        "text": "Red onion",
+        "price": 1
+      },
+      {
+        "text": "Black Olives",
+        "price": 1
+      }
+    ]
+  },
+  {
+    "title": "Mexicana",
+    "img": "/img/pizza/mexicana.jpg",
+    "desc": "Pizza sauce, gouda сheese, chicken fillet, red onion, spinach, jalapeno pepper, pepperoni",
+    "prices": [8, 13, 18],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Green Peppers",
+        "price": 1
+      },
+      {
+        "text": "Pepperonchini",
+        "price": 1
+      },
+      {
+        "text": "Grilled chicken",
+        "price": 2
+      },
+      {
+        "text": "Black Olives",
+        "price": 1
+      }
+    ]
+  },
+  {
+    "title": "Hawii",
+    "img": "/img/pizza/hawaii.jpg",
+    "desc": "Pizza sauce, gouda cheese, pineapple, ham",
+    "prices": [8, 13, 18],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Bacon",
+        "price": 2
+      },
+      {
+        "text": "Mozzarella cheese",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "title": "Classico",
+    "img": "/img/pizza/classico.jpg",
+    "desc": "Pizza sauce, gouda cheese, salami, mushrooms, pepperoni pepper",
+    "prices": [8, 13, 18],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Black Olives",
+        "price": 1
+      },
+      {
+        "text": "Salami",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "title": "Mista",
+    "img": "/img/pizza/mista.jpg",
+    "desc": "Pizza sauce, gouda cheese, mushrooms, ham, salami",
+    "prices": [10, 14, 18],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Black Olives",
+        "price": 1
+      },
+      {
+        "text": "Extra salami",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "title": "Salami",
+    "img": "/img/pizza/salami.jpg",
+    "desc": "Pizza sauce, gouda cheese, salami",
+    "prices": [10, 14, 18],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Black Olives",
+        "price": 1
+      },
+      {
+        "text": "Extra salami",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "title": "Speciale",
+    "img": "/img/pizza/speciale.jpg",
+    "desc": "Pizza sauce, gouda cheese, chicken fillet, red onion",
+    "prices": [10, 14, 18],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Black Olives",
+        "price": 1
+      },
+      {
+        "text": "Feta cheese",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "title": "Mega Mix",
+    "img": "/img/pizza/mega-mix.jpg",
+    "desc": "Pizza sauce, gouda сheese, tomatoes, bell pepper, mushrooms, black olives, ham, beef, chicken fillet",
+    "prices": [13, 19, 25],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Pepperonchini",
+        "price": 1
+      },
+      {
+        "text": "Salami",
+        "price": 2
+      },
+      {
+        "text": "Beef",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "title": "Four Seasons",
+    "img": "/img/pizza/four-seasons.jpg",
+    "desc": "Pizza sauce, gouda cheese, white cheese, ham, sucuk, mushrooms, tomatoes",
+    "prices": [13, 16, 19],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Oregano",
+        "price": 2
+      },
+      {
+        "text": "Extra Salami",
+        "price": 2
+      },
+      {
+        "text": "Pepperonchini",
+        "price": 1
+      }
+    ]
+  },
+  {
+    "title": "Volcano",
+    "img": "/img/pizza/volcano.jpg",
+    "desc": "Pizza sauce, gouda cheese, spinach, bell pepper, tomatoes, mushrooms, chicken fillet, olives",
+    "prices": [11, 16, 21],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Black Olives",
+        "price": 1
+      },
+      {
+        "text": "Red Onion",
+        "price": 1
+      }
+    ]
+  },
+  {
+    "title": "Tonno e Cipolla",
+    "img": "/img/pizza/tonno-e-cipolla.jpg",
+    "desc": "Pizza sauce, gouda cheese, tuna, red onion",
+    "prices": [11, 16, 21],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Black Olives",
+        "price": 1
+      },
+      {
+        "text": "Extra Tuna",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "title": "Sujuk",
+    "img": "/img/pizza/sujuk.jpg",
+    "desc": "Pizza sauce, gouda сheese, bell pepper, mushrooms, sucuk",
+    "prices": [11, 16, 21],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Beef",
+        "price": 2
+      },
+      {
+        "text": "Red Onion",
+        "price": 1
+      }
+    ]
+  },
+  {
+    "title": "Deluxe",
+    "img": "/img/pizza/deluxe.jpg",
+    "desc": "Pizza sauce, gouda cheese, red onion, pepperoni pepper, beef",
+    "prices": [12, 17, 22],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Bacon",
+        "price": 2
+      },
+      {
+        "text": "Mozzarella cheese",
+        "price": 2
+      }
+    ]
+  },
+  {
+    "title": "Texas",
+    "img": "/img/pizza/texas.jpg",
+    "desc": "Pizza sauce, gouda cheese, chicken fillet, bell pepper, corn, red onion",
+    "prices": [10, 14, 18],
+    "product": "pizza",
+    "extraOptions": [
+      {
+        "text": "Bacon",
+        "price": 2
+      },
+      {
+        "text": "Mozzarella cheese",
+        "price": 2
+      }
+    ]
+  }
+]

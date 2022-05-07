@@ -1,0 +1,89 @@
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+.container:hover .addToCartBtn {
+  visibility: visible;
+  background-image: linear-gradient(
+    to right,
+    #eb3349 0%,
+    #f45c43 51%,
+    #eb3349 100%
+  );
+  color: #fff !important;
+}
+
+.addToCartBtn {
+  background: #fff;
+  color: #d1411e;
+  width: 100%;
+  font-weight: 500;
+}
+
+.addToCartBtn {
+  border: none;
+  margin: 10px;
+  padding: 8px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.addToCartBtn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d1411e;
+  text-align: center;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+
+.desc {
+  text-align: center;
+  color: #777;
+  height: 30px;
+  font-size: 13px;
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 1025px) {
+  .desc {
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .price,
+  .desc {
+    font-size: 24px;
+    height: auto;
+  }
+  .cartImage {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
