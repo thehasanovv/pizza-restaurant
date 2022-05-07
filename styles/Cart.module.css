@@ -19,28 +19,13 @@
 
 .table {
   width: 100%;
+  border-spacing: 20px;
 }
 
-.orderList,
-.orderName {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  text-align: center;
+.table th {
+  text-align: left;
 }
 
-.orderName {
-  font-weight: bold;
-}
-
-.orderList li,
-.orderName li {
-  width: 80px;
-}
-
-.extrasLi {
-  width: 210px !important;
-}
 .name {
   font-weight: 500;
   color: #d1411e;
@@ -75,20 +60,18 @@
   cursor: pointer;
   margin-top: 20px;
 }
-.paymentMethods {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
+
+@media screen and (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+  }
+  .right {
+    width: 350px;
+    margin-top: 50px;
+  }
 }
-.payButton {
-  padding: 10px 5px;
-  cursor: pointer;
-  margin-bottom: 5px;
-  background-color: white;
-  color: teal;
-  font-weight: bold;
-}
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 769px) {
   .container {
     flex-direction: column;
     padding: 20px;
@@ -145,4 +128,19 @@
   .wrapper {
     width: 100%;
   }
+}
+
+.paymentMethods {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payButton {
+  padding: 10px 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  background-color: white;
+  color: teal;
+  font-weight: bold;
 }

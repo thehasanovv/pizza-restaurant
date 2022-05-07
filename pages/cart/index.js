@@ -1,70 +1,77 @@
-import { PayPalScriptProvider } from "@paypal/react-paypal-js";
-import { useSelector } from "react-redux";
-import { useState } from "react";
 import styles from "../../styles/Cart.module.css";
 import Image from "next/image";
 import ButtonWrapper from "../../features/paypal";
 import OrderDetail from "../../components/OrderDetail";
+import { PayPalScriptProvider } from "@paypal/react-paypal-js";
+import { useSelector } from "react-redux";
+import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { reduxOpenModal } from "../../store/slices/modalSlice";
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
   const [open, setOpen] = useState(false);
   const [cash, setCash] = useState(false);
   const currency = "USD";
+
+  const dispatch = useDispatch();
+
   return (
     <div className={styles.container}>
       <div className={styles.left}>
-        <div className={styles.table}>
-          <ul className={styles.orderName}>
-            <li>Product</li>
-            <li>Name</li>
-            <li className={styles.extrasLi}>Extras</li>
-            <li>Price</li>
-            <li>Quantity</li>
-            <li>Total</li>
-          </ul>
-          {cart.products.map((product) => (
-            <ul className={styles.orderList} key={product._id}>
-              <li>
-                <div className={styles.imgContainer}>
-                  <Image
-                    src={product.item.img}
-                    layout="fill"
-                    objectFit="cover"
-                    alt=""
-                  />
-                </div>
-              </li>
-              <li>
-                <span className={styles.name}>{product.item.title}</span>
-              </li>
-              <li className={styles.extrasLi}>
-                <span className={styles.extras}>
+        <table className={styles.table}>
+          <tbody>
+            <tr className={styles.trTitle}>
+              <th>Product</th>
+              <th>Name</th>
+              <th>Extras</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
+          </tbody>
+          <tbody>
+            {cart.products.map((product) => (
+              <tr className={styles.tr} key={product._id}>
+                <td>
+                  <div className={styles.imgContainer}>
+                    <Image
+                      src={product.item.img}
+                      layout="fill"
+                      objectFit="cover"
+                      alt=""
+                    />
+                  </div>
+                </td>
+                <td>
+                  <span className={styles.name}>{product.item.title}</span>
+                </td>
+                <td>
                   <span className={styles.extras}>
                     {product.extras[0] ? (
                       product.extras.map((extra) => (
-                        <span key={extra._id}>{extra.text}, </span>
+                        <span key={extra._id}>{extra.text} </span>
                       ))
                     ) : (
                       <p>No extras</p>
                     )}
                   </span>
-                </span>
-              </li>
-              <li>
-                <span className={styles.price}>{product.price}</span>
-              </li>
-              <li>
-                <span className={styles.quantity}>{product.quantity}</span>
-              </li>
-              <li>
-                <span className={styles.total}>
-                  ${product.price * product.quantity}
-                </span>
-              </li>
-            </ul>
-          ))}
-        </div>
+                </td>
+                <td>
+                  <span className={styles.price}>${product.price}</span>
+                </td>
+                <td>
+                  <span className={styles.quantity}>{product.quantity}</span>
+                </td>
+                <td>
+                  <span className={styles.total}>
+                    ${product.price * product.quantity}
+                  </span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
       <div className={styles.right}>
         <div className={styles.wrapper}>
@@ -82,7 +89,7 @@ const Cart = () => {
             <div className={styles.paymentMethods}>
               <button
                 className={styles.payButton}
-                onClick={() => setCash(true)}
+                onClick={() => dispatch(reduxOpenModal())}
               >
                 CASH ON DELIVERY
               </button>

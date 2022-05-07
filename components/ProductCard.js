@@ -18,9 +18,7 @@ const ProductCard = ({ pizza }) => {
     <div className={styles.container}>
       <div className={styles.cartImage}>
         <Zoom zoomMargin={150}>
-          <picture>
-            <Image src={pizza.img} alt="" width="300px" height="300px" />
-          </picture>
+          <Image src={pizza.img} alt="" width="300px" height="300px" />
         </Zoom>
       </div>
       {pizza.product === "pizza" && (

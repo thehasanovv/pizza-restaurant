@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Badge from "@mui/material/Badge";
 import Link from "next/link";
-import ShoppingBasketOutlinedIcon from "@mui/icons-material/ShoppingBasketOutlined";
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import styles from "../../styles/Navbar.module.css";
 import useScroll from "../../features/scroll";
 import NavbarNav from "./NavbarNav";
@@ -60,7 +60,7 @@ const Navbar = () => {
                 color="primary"
                 style={{ cursor: "pointer" }}
               >
-                <ShoppingBasketOutlinedIcon />
+                <ShoppingCartOutlinedIcon />
               </Badge>
             </div>
           </div>
