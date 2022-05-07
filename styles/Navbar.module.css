@@ -41,7 +41,9 @@
 .item:last-child {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   width: 135px;
+  gap: 20px;
 }
 
 .callButton {
@@ -79,15 +81,26 @@
   margin: 20px;
   font-weight: 500;
 }
+
 .cart {
   position: relative;
 }
+
 .cart svg {
   color: #fff;
   font-size: 1.7rem;
 }
+
 .cart > span > span {
   background-color: #b13212 !important;
+}
+
+.login {
+  color: #fff;
+  font-size: 1.37rem;
+
+  letter-spacing: 0.15rem;
+  font-family: "Oleo Script Swash Caps", cursive;
 }
 .counter {
   position: absolute;
@@ -125,31 +138,38 @@
   justify-content: center;
   align-items: center;
 }
+
 .landing h1 {
   margin: 100px;
   font-size: 50px;
   color: #ae5fce;
 }
+
 .navLogoLeft {
   display: none;
 }
+
 .navLogoCenter {
   display: none;
 }
+
 .hamburger {
   display: none;
 }
 
 @media screen and (max-width: 1137px) {
-  .item:last-child {
+  /* .item:last-child {
     width: 30px;
-  }
+  } */
+
   .texts {
     margin-left: 6px;
   }
+
   .text:first-child {
     font-size: 11px;
   }
+
   .text:last-child {
     font-size: 16px;
   }
@@ -159,52 +179,61 @@
   .hamburger {
     display: block;
   }
+
   .navLogoLeft {
     display: block;
     width: 70px;
     margin-top: 5px;
   }
+
   .isScrolledNavLogoLeft {
     width: 120px !important;
   }
+
   .navLogoCenter {
     display: none !important;
   }
+
   .navLogoCenterHide {
     display: none;
   }
+
   .navLogoLeft img {
     width: 100%;
   }
+
   .callButton {
     display: none;
   }
+
   .texts {
     display: none;
   }
+
   .line {
     width: 30px;
     height: 3px;
     background: white;
     margin: 5px;
   }
+
   .item {
     position: relative;
   }
-  .cart {
+
+  /* .cart {
     padding-right: 65px;
-  }
+  } */
+
   .cart svg {
     font-size: 2rem;
   }
+
   .hamburger {
-    position: absolute;
     cursor: pointer;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
     z-index: 2;
   }
+
   .list {
     position: fixed;
     background-image: radial-gradient(
@@ -226,32 +255,41 @@
     top: 10px;
     margin-top: -10px;
   }
+
   .list.open {
     clip-path: circle(1000px at 70% -15%);
     -webkit-clip-path: circle(1000px at 70% -15%);
     pointer-events: all;
   }
+
   .landing {
     flex-direction: column;
   }
+
   .listItem {
     opacity: 0;
   }
+
   .listItem:first-child {
     margin-top: 75px;
   }
+
   .listItem a {
     font-size: 25px;
   }
+
   .listItem:nth-child(1) {
     transition: all 0.5s ease 0.2s;
   }
+
   .listItem:nth-child(2) {
     transition: all 0.5s ease 0.4s;
   }
+
   .listItem:nth-child(3) {
     transition: all 0.5s ease 0.6s;
   }
+
   li.fade {
     opacity: 1;
   }
@@ -265,7 +303,4 @@
     width: 100px !important;
     margin-left: -35px;
   }
-  /* .list {
-    top: 9vh;
-  } */
 }

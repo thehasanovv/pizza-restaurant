@@ -1,0 +1,56 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/img/bg-pizza.jpg") center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 40%;
+  padding: 20px;
+  background-color: white;
+}
+
+.wrapper h1 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.registerForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.registerForm input {
+  flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0px 0px;
+  padding: 10px;
+}
+
+.registerForm .agreement {
+  font-size: 12px;
+  margin: 20px 0px;
+}
+
+.registerForm button {
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 75%;
+  }
+}

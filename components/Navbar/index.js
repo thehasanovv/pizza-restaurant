@@ -51,9 +51,14 @@ const Navbar = () => {
         isOpen={isOpen}
         setIsOpen={setIsOpen}
       />
-      <Link href="/cart">
-        <a>
-          <div className={styles.item}>
+      <div className={styles.item}>
+        <Link href="/login">
+          <a>
+            <div className={styles.login}>Login</div>
+          </a>
+        </Link>
+        <Link href="/cart">
+          <a>
             <div className={styles.cart}>
               <Badge
                 badgeContent={quantity}
@@ -63,13 +68,13 @@ const Navbar = () => {
                 <ShoppingCartOutlinedIcon />
               </Badge>
             </div>
-          </div>
-        </a>
-      </Link>
-      <div className={styles.hamburger} onClick={openCartModalHandler}>
-        <div className={styles.line}></div>
-        <div className={styles.line}></div>
-        <div className={styles.line}></div>
+          </a>
+        </Link>
+        <div className={styles.hamburger} onClick={openCartModalHandler}>
+          <div className={styles.line}></div>
+          <div className={styles.line}></div>
+          <div className={styles.line}></div>
+        </div>
       </div>
     </div>
   );
