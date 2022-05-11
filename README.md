@@ -1,5 +1,5 @@
 # Pizza restaurant website
-
+<img src="/img/gthome.png">
 To view a live example, [click here](https://pizza-restaurant-three.vercel.app/)
 
 ## Features
