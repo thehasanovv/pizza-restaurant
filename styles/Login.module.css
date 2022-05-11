@@ -51,3 +51,15 @@
   text-decoration: underline;
   cursor: pointer;
 }
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 85%;
+    padding: 10px;
+  }
+}

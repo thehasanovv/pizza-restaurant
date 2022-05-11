@@ -77,6 +77,9 @@
     padding: 20px;
   }
 
+  .right {
+    width: 100%;
+  }
   .table {
     display: flex;
     flex-direction: column;

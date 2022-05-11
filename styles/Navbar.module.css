@@ -274,10 +274,6 @@
     margin-top: 75px;
   }
 
-  .listItem a {
-    font-size: 25px;
-  }
-
   .listItem:nth-child(1) {
     transition: all 0.5s ease 0.2s;
   }
@@ -296,9 +292,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .cart {
-    padding-right: 35px;
-  }
   .isScrolledNavLogoLeft {
     width: 100px !important;
     margin-left: -35px;

@@ -49,8 +49,19 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    width: 60%;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .wrapper {
-    width: 75%;
+    width: 85%;
+    padding: 10px;
+  }
+
+  .registerForm {
+    flex-direction: column;
   }
 }
