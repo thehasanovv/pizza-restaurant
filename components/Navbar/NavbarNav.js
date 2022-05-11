@@ -20,9 +20,10 @@ const NavbarNav = ({ isScrolled, isOpen, setIsOpen }) => {
             <li
               className={`${styles.listItem} ${!isOpen && styles.fade}`}
               onClick={closeCartModalHandler}
+              key={nav.id}
             >
               {router.pathname === "/" ? (
-                <ScrollIntoView selector={nav.selector} key={nav.id}>
+                <ScrollIntoView selector={nav.selector}>
                   {nav.list}
                 </ScrollIntoView>
               ) : (

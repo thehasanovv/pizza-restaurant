@@ -22,7 +22,7 @@ export default function Home({ pizzaList, saladList, drinkList }) {
   );
 }
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const products = await axios.get("http://localhost:3000/api/products");
   const salads = await axios.get("http://localhost:3000/api/salads");
   const drinks = await axios.get("http://localhost:3000/api/drinks");
