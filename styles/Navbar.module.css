@@ -271,7 +271,7 @@
   }
 
   .listItem:first-child {
-    margin-top: 75px;
+    margin-top: 150px;
   }
 
   .listItem:nth-child(1) {
@@ -295,5 +295,9 @@
   .isScrolledNavLogoLeft {
     width: 100px !important;
     margin-left: -35px;
+  }
+
+  .container {
+    padding: 0 20px 0 50px;
   }
 }
