@@ -25,4 +25,3 @@ To view a live example, [click here](https://pizza-restaurant-three.vercel.app/)
 
 ## Add to cart
 <img src="public/img/gtaddcart.png" width="600">
-
