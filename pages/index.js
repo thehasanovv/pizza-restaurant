@@ -3,6 +3,9 @@ import axios from "axios";
 import styles from "../styles/Home.module.css";
 import Featured from "../components/Featured";
 import ProductList from "../components/ProductList";
+import pizzaListMock from "../data-dev/pizzas.json";
+import saladListMock from "../data-dev/salads.json";
+import drinksListMock from "../data-dev/drinks.json";
 
 export default function Home({ pizzaList, saladList, drinkList }) {
   return (
@@ -14,9 +17,9 @@ export default function Home({ pizzaList, saladList, drinkList }) {
       </Head>
       <Featured />
       <ProductList
-        pizzaList={pizzaList}
-        saladList={saladList}
-        drinkList={drinkList}
+        pizzaList={pizzaListMock}
+        saladList={saladListMock}
+        drinkList={drinksListMock}
       />
     </div>
   );
