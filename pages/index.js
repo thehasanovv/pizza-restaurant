@@ -3,6 +3,9 @@ import axios from "axios";
 import styles from "../styles/Home.module.css";
 import Featured from "../components/Featured";
 import ProductList from "../components/ProductList";
+import drinks from "../data-dev/drinks.json";
+import pizzas from "../data-dev/pizzas.json";
+import salads from "../data-dev/salads.json";
 
 export default function Home({ pizzaList, saladList, drinkList }) {
   return (
@@ -13,11 +16,7 @@ export default function Home({ pizzaList, saladList, drinkList }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Featured />
-      <ProductList
-        pizzaList={pizzaList}
-        saladList={saladList}
-        drinkList={drinkList}
-      />
+      <ProductList pizzaList={pizzas} saladList={salads} drinkList={drinks} />
     </div>
   );
 }
