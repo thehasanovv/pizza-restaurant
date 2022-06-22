@@ -21,16 +21,16 @@ export default function Home({ pizzaList, saladList, drinkList }) {
   );
 }
 
-export const getServerSideProps = async () => {
-  const products = await axios.get("http://localhost:3000/api/products");
-  const salads = await axios.get("http://localhost:3000/api/salads");
-  const drinks = await axios.get("http://localhost:3000/api/drinks");
+// export const getServerSideProps = async () => {
+//   const products = await axios.get("http://localhost:3000/api/products");
+//   const salads = await axios.get("http://localhost:3000/api/salads");
+//   const drinks = await axios.get("http://localhost:3000/api/drinks");
 
-  return {
-    props: {
-      pizzaList: products.data,
-      saladList: salads.data,
-      drinkList: drinks.data,
-    },
-  };
-};
+//   return {
+//     props: {
+//       pizzaList: products.data,
+//       saladList: salads.data,
+//       drinkList: drinks.data,
+//     },
+//   };
+// };
